@@ -9,3 +9,4 @@ urlpatterns = [
     path('dishes/<str:dish>', views.menuitems, name='dishes'),
 
 ]
+

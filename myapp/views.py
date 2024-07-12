@@ -44,3 +44,5 @@ def menuitems(request, dish):
     }
     desc = items[dish]
     return HttpResponse(f'<h2>{dish}</h2>' + desc)
+
+
